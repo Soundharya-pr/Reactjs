@@ -1,8 +1,11 @@
+import React from "react"
+import "../../CSS/styling.css"
 function PropsComponent(props){
+ 
     return(
-        <>
-        Hello, <b>{props.name}</b><br></br> This is {props.course} class
-        </>
+        <div>
+        <h3>Hello, <b>{props.name}</b><br></br> This is {props.course} class</h3>
+        </div>
     )
 }
 export default PropsComponent
