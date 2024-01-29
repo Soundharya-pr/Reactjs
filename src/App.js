@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 // import PropsComponent from './components/Functionalcomponents/PropsComponent';
 // import StateComponent from './components/Functionalcomponents/StateComponents';
@@ -9,6 +9,8 @@ import About from './components/Functionalcomponents/About';
 import Login from './components/Functionalcomponents/Login';
 import Project from './components/Functionalcomponents/Project';
 import Footer from './components/Functionalcomponents/Footer';
+import Reference from './components/Functionalcomponents/Reference';
+import Map from './components/Functionalcomponents/Map';
 function App() {
   return (
     <div className="App">
@@ -19,14 +21,15 @@ function App() {
         <Route path="/About" element={<About/>} ></Route>
         <Route path="/Project" element={<Project/>}></Route>
         <Route path="/Login" element={<Login/>}></Route>
-        
+        <Route path="/Reference" element={<Reference/>}></Route>
+        <Route path="/Map" element={<Map/>}></Route>
       </Routes>
       </BrowserRouter>  
       <footer/>                              
       {/* <PropsComp name= "Soundharya" course="MERN"/> */}
-       <header className="App-header">
+        <header className="App-header">
       
-       <img src={logo} className="App-logo" alt="logo" />
+       {/* <img src={logo} className="App-logo" alt="logo" />
         
        <p>
            Edit <code>src/App.js</code> and save to reload.
@@ -38,9 +41,9 @@ function App() {
            rel="noopener noreferrer"
          >
            Learn React
-         </a>
+         </a> */}
          {/* <StateComponent></StateComponent> */}
-       </header>
+        </header> 
       <Footer></Footer>
    </div>
     

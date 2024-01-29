@@ -2,7 +2,14 @@ import "../../CSS/Footer.css"
 const Footer = () =>{
     return(
         <div>
-            <h3>Mail me at @soundharyapr.21ece@kongu.edu</h3>
+           <ol class="foot">
+                <li>Instagram</li>
+                <li>Mail</li>
+                <li>Whatsapp</li>
+
+            </ol>
+            <p>&copy; Soundharya P R</p>
+
         </div>
     )
 

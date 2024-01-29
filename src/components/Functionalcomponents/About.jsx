@@ -1,8 +1,14 @@
+import { useState} from "react";
 const About = () =>{
+    const [college,updateCollege] = useState("KEC")
+    const updatingClg =()=>{
+        updateCollege("Kongu Engineering College")
+    }
     return(
-        <div>
-            <h3>This for Personal Details </h3>
-        </div>
+        <>
+            <h3> Welcome to {college}</h3>
+            <button onDoubleClick={(updatingClg)}>Update</button>
+        </>
     )
 
 }
